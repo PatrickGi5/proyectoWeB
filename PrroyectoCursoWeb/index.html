@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso: Desarrollo Web Básico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Curso: Desarrollo Web Básico</h1>
+    </header>
+
+    <section>
+        <h2>Bienvenido al Curso de Desarrollo Web Básico</h2>
+        <p>En este curso aprenderás los fundamentos básicos de la creación de páginas web utilizando HTML, CSS y JavaScript. Cada módulo está diseñado para ayudarte a construir una base sólida en desarrollo web.</p>
+        <p>A lo largo del curso, verás videos, ejemplos y ejercicios prácticos para entender cómo se estructura y estiliza una página web, así como cómo se añaden interactividad con JavaScript.</p>
+    </section>
+
+    <section>
+        <h2>Módulos del Curso</h2>
+        <p><strong>HTML</strong>: HTML (HyperText Markup Language) es el lenguaje de marcado estándar utilizado para crear la estructura de las páginas web.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MJkdaVFHrto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p><strong>CSS</strong>: CSS (Cascading Style Sheets) es el lenguaje utilizado para aplicar estilos visuales a las páginas web. En este módulo, aprenderás a modificar el diseño y la apariencia de tu página.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3yM5uXp-T_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p><strong>JavaScript</strong>: JavaScript es un lenguaje de programación utilizado para agregar interactividad a las páginas web. En este módulo, aprenderás cómo hacer que tu sitio web sea dinámico.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Q9fwkpxr3Dw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- Calificación arriba de las preguntas -->
+    <section>
+        <h2>Evaluación</h2>
+        <p>Responde las siguientes preguntas para evaluar tus conocimientos:</p>
+        <div id="resultado"></div> <!-- Div para mostrar la calificación -->
+
+        <form id="quizForm">
+            <label>1. ¿Qué es HTML?</label><br>
+            <input type="radio" name="question1" value="a"> Lenguaje de programación.<br>
+            <input type="radio" name="question1" value="b"> Lenguaje de marcado.<br>
+            <input type="radio" name="question1" value="c"> Lenguaje de estilos.<br>
+
+            <label>2. ¿Para qué se utiliza CSS?</label><br>
+            <input type="radio" name="question2" value="a"> Para crear la estructura de la página web.<br>
+            <input type="radio" name="question2" value="b"> Para diseñar la apariencia visual de la página web.<br>
+            <input type="radio" name="question2" value="c"> Para agregar interactividad a la página web.<br>
+
+            <label>3. ¿Qué hace JavaScript en una página web?</label><br>
+            <input type="radio" name="question3" value="a"> Estiliza la página web.<br>
+            <input type="radio" name="question3" value="b"> Hace que la página sea interactiva.<br>
+            <input type="radio" name="question3" value="c"> Marca los elementos en la página.<br>
+
+            <label>4. ¿Cómo se declara una variable en JavaScript?</label><br>
+            <input type="radio" name="question4" value="a"> var miVariable;<br>
+            <input type="radio" name="question4" value="b"> let miVariable = 10;<br>
+            <input type="radio" name="question4" value="c"> function miVariable() { ... }<br>
+
+            <label>5. ¿Qué es el "box model" en CSS?</label><br>
+            <input type="radio" name="question5" value="a"> Es el modelo de disposición de cajas de texto.<br>
+            <input type="radio" name="question5" value="b"> Es el sistema de organización de los elementos en una página.<br>
+            <input type="radio" name="question5" value="c"> Es la forma de aplicar márgenes y padding a los elementos.<br>
+
+            <br>
+            <button type="button" onclick="calificar()">Enviar respuestas</button>
+        </form>
+    </section>
+
+    <!-- Pie de página (footer) separado -->
+    <footer>
+        <p>© 2024 Curso de Desarrollo Web Básico. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
